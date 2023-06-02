@@ -1,0 +1,34 @@
+Change Component Footprint: Designator=D9 Old Footprint=DO214AA SMB New Footprint=SOD323
+Change Component Comment : Designator=D9 Old Comment=SK56B-LTP New Comment=BAT165E6327HTSA1
+Change component parameters: Designator = "D9" ("D9"); Footprint = "DO214AA SMB"; UniqueID = "\TOIFWDOC\DYNTGOSU" ("\TOIFWDOC\DYNTGOSU")
+Change component parameters (AddParameter): Name = "Capacitance @ Vr, F"; Value = "12pF @ 10V, 1MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.infineon.com/dgdl/bat165series.pdf?folderId=db3a304313d846880113def5812204a1&fileId=db3a304313d846880113df01f69804d6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.digikey.com/en/products/detail/infineon-technologies/BAT165E6327HTSA1/1280923"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Average Rectified (Io)"; Value = "750mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Reverse Leakage @ Vr"; Value = "50 µA @ 40 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diode Type"; Value = "Schottky"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LastUpdated"; Value = "2023-06-01 8:44:35 PM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature - Junction"; Value = "150°C (Max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "SC-76, SOD-323"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartId"; Value = "3086"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "0.12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Speed"; Value = "Fast Recovery =< 500ns, > 200mA (Io)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Device Package"; Value = "PG-SOD323-3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "BAT165E6327HTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - DC Reverse (Vr) (Max)"; Value = "40 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Forward (Vf) (Max) @ If"; Value = "740 mV @ 750 mA"; VariantName = "[No Variations]"
+Add Differential Pair: Number of nets in differential pair CAN_H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN_L is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetD12_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetD13_2 is 1 instead of 2
