@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=+5V Pin=TP8-1
+Change Component Designator: OldDesignator=TP9 NewDesignator=TP8
+Change Component Designator: OldDesignator=TP10 NewDesignator=TP9
+Change Component Designator: OldDesignator=TP11 NewDesignator=TP10
+Change Component Designator: OldDesignator=TP12 NewDesignator=TP11
+Change Component Designator: OldDesignator=TP13 NewDesignator=TP12
+Change Component Designator: OldDesignator=TP14 NewDesignator=TP13
+Change Component Designator: OldDesignator=TP15 NewDesignator=TP14
+Change Component Designator: OldDesignator=TP16 NewDesignator=TP15
+Change Component Designator: OldDesignator=TP17 NewDesignator=TP16
+Change Component Designator: OldDesignator=TP18 NewDesignator=TP17
+Change Component Designator: OldDesignator=TP19 NewDesignator=TP18
+Change Component Designator: OldDesignator=TP20 NewDesignator=TP19
+Add Differential Pair: Number of nets in differential pair CAN_H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN_L is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetD12_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetD13_2 is 1 instead of 2
+Added Member To Class: ClassName=Power Member=Component TP7 1.5mm Test Point
+Added Member To Class: ClassName=Sensors Member=Component TP10 1.5mm Test Point
+Added Member To Class: ClassName=Sensors Member=Component TP12 1.5mm Test Point
+Added Member To Class: ClassName=Sensors Member=Component TP14 1.5mm Test Point
+Added Member To Class: ClassName=Sensors Member=Component TP16 1.5mm Test Point
+Added Member To Class: ClassName=Sensors Member=Component TP18 1.5mm Test Point
