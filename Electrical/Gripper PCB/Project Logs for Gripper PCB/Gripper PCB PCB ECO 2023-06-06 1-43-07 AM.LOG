@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetR29_1 Pin=TP14-1
+Removed Pin From Net: NetName=NetR30_1 Pin=TP15-1
+Removed Pin From Net: NetName=NetC34_2 Pin=TP16-1
+Removed Pin From Net: NetName=NetC35_2 Pin=TP17-1
+Removed Member From Class: ClassName=Sensors Member=TP17
+Removed Member From Class: ClassName=Sensors Member=TP19
+Change Component Designator: OldDesignator=TP18 NewDesignator=TP14
+Change Component Designator: OldDesignator=TP19 NewDesignator=TP15
+Add Differential Pair: Number of nets in differential pair CAN_H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN_L is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetD12_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetD13_2 is 1 instead of 2
+Added Member To Class: ClassName=Power Member=Component TP8 1.5mm Test Point
+Added Member To Class: ClassName=Sensors Member=Component TP10 1.5mm Test Point
+Added Member To Class: ClassName=Sensors Member=Component TP12 1.5mm Test Point
+Added Member To Class: ClassName=Sensors Member=Component TP14 1.5mm Test Point
