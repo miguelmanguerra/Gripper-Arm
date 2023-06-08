@@ -1,0 +1,7 @@
+Change Net Name : Old Net Name=NetD12_2 New Net Name=D_P
+Change Net Name : Old Net Name=NetD13_2 New Net Name=D_N
+Add Differential Pair: Number of nets in differential pair CAN_H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN_L is 1 instead of 2
+Added Differential Pair: Name=D
+Added Member To Class: ClassName=Sensors Member=Component TP14 1.5mm Test Point
+Added Member To Class: ClassName=Sensors Member=Component TP15 1.5mm Test Point
