@@ -1,0 +1,51 @@
+Added Component: Designator=U2(ESP32-WROOM-32UE-N4-Footprint-1)
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Pin To Net: NetName=+3V3 Pin=U2-2
+Added Pin To Net: NetName=EN Pin=U2-3
+Added Pin To Net: NetName=NetC33_2 Pin=U2-4
+Added Pin To Net: NetName=NetU2_13 Pin=U2-13
+Added Pin To Net: NetName=NetU2_14 Pin=U2-14
+Added Pin To Net: NetName=GND Pin=U2-15
+Added Pin To Net: NetName=NetU2_16 Pin=U2-16
+Added Pin To Net: NetName=NetU2_23 Pin=U2-23
+Added Pin To Net: NetName=NetC34_2 Pin=U2-24
+Added Pin To Net: NetName=BOOT Pin=U2-25
+Added Pin To Net: NetName=NetC35_2 Pin=U2-26
+Added Pin To Net: NetName=NetR10_1 Pin=U2-27
+Added Pin To Net: NetName=NetIC4_2 Pin=U2-28
+Added Pin To Net: NetName=NetU2_29 Pin=U2-29
+Added Pin To Net: NetName=NetIC4_3 Pin=U2-30
+Added Pin To Net: NetName=RED Pin=U2-33
+Added Pin To Net: NetName=TX0 Pin=U2-34
+Added Pin To Net: NetName=RX0 Pin=U2-35
+Added Pin To Net: NetName=GREEN Pin=U2-36
+Added Pin To Net: NetName=BLUE Pin=U2-37
+Added Pin To Net: NetName=GND Pin=U2-38
+Added Pin To Net: NetName=GND Pin=U2-39_1
+Added Pin To Net: NetName=GND Pin=U2-39_2
+Added Pin To Net: NetName=GND Pin=U2-39_3
+Added Pin To Net: NetName=GND Pin=U2-39_4
+Added Pin To Net: NetName=GND Pin=U2-39_5
+Added Pin To Net: NetName=GND Pin=U2-39_6
+Added Pin To Net: NetName=GND Pin=U2-39_7
+Added Pin To Net: NetName=GND Pin=U2-39_8
+Added Pin To Net: NetName=GND Pin=U2-39_9
+Added Pin To Net: NetName=GND Pin=U2-39_10
+Added Pin To Net: NetName=GND Pin=U2-39_11
+Added Pin To Net: NetName=GND Pin=U2-39_12
+Added Pin To Net: NetName=GND Pin=U2-39_13
+Added Pin To Net: NetName=GND Pin=U2-39_14
+Added Pin To Net: NetName=GND Pin=U2-39_15
+Added Pin To Net: NetName=GND Pin=U2-39_16
+Added Pin To Net: NetName=GND Pin=U2-39_17
+Added Pin To Net: NetName=GND Pin=U2-39_18
+Added Pin To Net: NetName=GND Pin=U2-39_19
+Added Pin To Net: NetName=GND Pin=U2-39_20
+Added Pin To Net: NetName=GND Pin=U2-39_21
+Added Member To Class: ClassName=Micro Member=Component U2 ESP32-WROOM-32UE-N4
+Added Room: Name=CAN
+Added Room: Name=Micro
+Added Room: Name=Motor Driver
+Added Room: Name=Power
+Added Room: Name=Sensors
+Added Room: Name=Top Level

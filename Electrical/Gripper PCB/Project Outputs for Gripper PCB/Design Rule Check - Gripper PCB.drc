@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Gripper-Arm\Electrical\Gripper PCB\Gripper PCB.PcbDoc
-Date     : 2023-06-10
-Time     : 3:01:19 AM
+Date     : 2023-06-14
+Time     : 1:14:30 AM
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -30,9 +30,9 @@ Rule Violations :0
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
    Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.1mm) Between Pad C21-1(25.3mm,9.2mm) on Bottom Layer And Pad C21-2(25.3mm,10.8mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.097mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.1mm) Between Pad C22-1(25.3mm,14.7mm) on Bottom Layer And Pad C22-2(25.3mm,13.1mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.097mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.1mm) Between Pad D11-1(41.2mm,40.5mm) on Bottom Layer And Pad D11-2(41.9mm,40.5mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.097mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.1mm) Between Pad D12-1(42.05mm,37.5mm) on Bottom Layer And Pad D12-2(41.35mm,37.5mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.097mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.1mm) Between Pad D13-1(42.05mm,39mm) on Bottom Layer And Pad D13-2(41.35mm,39mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.097mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.1mm) Between Pad D11-1(40.5mm,40.9mm) on Bottom Layer And Pad D11-2(41.2mm,40.9mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.097mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.1mm) Between Pad D12-1(28.15mm,37.7mm) on Bottom Layer And Pad D12-2(28.85mm,37.7mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.097mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.1mm) Between Pad D13-1(28.15mm,40.8mm) on Bottom Layer And Pad D13-2(28.85mm,40.8mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.097mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.083mm < 0.1mm) Between Pad IC2-1(10.605mm,14.425mm) on Bottom Layer And Pad IC2-9(8.7mm,16.9mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.083mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.082mm < 0.1mm) Between Pad IC2-2(9.335mm,14.425mm) on Bottom Layer And Pad IC2-9(8.7mm,16.9mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.082mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.082mm < 0.1mm) Between Pad IC2-3(8.065mm,14.425mm) on Bottom Layer And Pad IC2-9(8.7mm,16.9mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.082mm]
@@ -126,4 +126,4 @@ Rule Violations :0
 
 Violations Detected : 69
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
