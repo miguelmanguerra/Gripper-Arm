@@ -1,0 +1,15 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Gripper PCB.PcbDoc]
+   Generated File[Gripper PCB-RoundHoles-Plated.TXT]
+   Generated File[Gripper PCB-RoundHoles-NonPlated.TXT]
+   Generated File[Gripper PCB-SlotHoles-Plated.TXT]
+   Generated File[Gripper PCB-RoundHoles_Type_1b-Plated.TXT]
+   Generated File[Gripper PCB.LDP]
+   Generated File[Gripper PCB.DRR]
+
+
+Files Generated   : 6
+Documents Printed : 0
+
+Finished Output Generation At 1:39:09 AM On 2023-06-14

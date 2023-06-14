@@ -1,0 +1,32 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Gripper PCB.PcbDoc   2023-06-14  1:39:08 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Gripper PCB-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : Gripper PCB-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : Gripper PCB-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.201mm)                                            Round             9         PTH        0.44inch (11.27mm)
+T2      16mil (0.399mm)                                           Round             357       PTH        37.50inch (952.55mm)
+T3      20mil (0.5mm)                                             Slot              2         PTH        0.58inch (14.64mm)
+T4      30mil (0.749mm)                                           Round             11        PTH        4.30inch (109.17mm)
+T5      40mil (1.021mm)                                           Round             6         PTH        3.23inch (81.93mm)
+T6      42mil (1.069mm)                                           Round             4         PTH        0.35inch (9.00mm)
+T7      126mil (3.2mm)                                            Round             2         PTH        1.95inch (49.50mm)
+T8      118mil (3mm)                                              Round             3         NPTH       3.26inch (82.89mm)
+T9      120mil (3.051mm)                                          Round             2         NPTH       0.19inch (4.70mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              396
+Via Type 1b : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Gripper PCB-RoundHoles_Type_1b-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T10     16mil (0.399mm)                                           Round             1         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Via Type 1b Totals                                                                  1
+
+Total Processing Time (hh:mm:ss) : 00:00:01

@@ -190,11 +190,109 @@ UniqueID=004C7CA5-5AA3-46DC-95D6-43B1EDF451F7
 Description=X1
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=6
+Variation1=Designator=R12|UniqueId=\KEXKDXEZ\LSBDBNOJ|Kind=1|AlternatePart= 
+Variation2=Designator=R11|UniqueId=\KEXKDXEZ\YVQREYNY|Kind=1|AlternatePart= 
+Variation3=Designator=TP2|UniqueId=\KEXKDXEZ\CIABVSUE|Kind=1|AlternatePart= 
+Variation4=Designator=TP4|UniqueId=\KEXKDXEZ\ZIODKAHC|Kind=1|AlternatePart= 
+Variation5=Designator=TP3|UniqueId=\KEXKDXEZ\EBALXEUT|Kind=1|AlternatePart= 
+Variation6=Designator=TP1|UniqueId=\KEXKDXEZ\ZUNIGKCT|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=BOM\BOM\Bill of Materials-Gripper PCB.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Gripper PCB\Design Rule Check - Gripper PCB.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Manufacturing Files\Fabrication Output\NC Drill\Gripper PCB-RoundHoles-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Manufacturing Files\Fabrication Output\NC Drill\Gripper PCB-RoundHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Manufacturing Files\Fabrication Output\NC Drill\Gripper PCB-RoundHoles_Type_1b-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Manufacturing Files\Fabrication Output\NC Drill\Gripper PCB-SlotHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Manufacturing Files\Fabrication Output\NC Drill\Gripper PCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.G1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.G2
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GM
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GM6
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Manufacturing Files\Fabrication Output\NC Drill\Gripper PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.RUL
 DItemRevisionGUID=
 
 [Configuration1]
