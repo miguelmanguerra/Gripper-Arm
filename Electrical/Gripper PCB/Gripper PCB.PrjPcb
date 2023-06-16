@@ -200,98 +200,90 @@ Variation6=Designator=TP1|UniqueId=\KEXKDXEZ\ZUNIGKCT|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=BOM\BOM\Bill of Materials-Gripper PCB.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Gripper PCB\Design Rule Check - Gripper PCB.html
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Manufacturing Files\Fabrication Output\NC Drill\Gripper PCB-RoundHoles-NonPlated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument2]
 DocumentPath=Manufacturing Files\Fabrication Output\NC Drill\Gripper PCB-RoundHoles-Plated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument3]
 DocumentPath=Manufacturing Files\Fabrication Output\NC Drill\Gripper PCB-RoundHoles_Type_1b-Plated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument4]
 DocumentPath=Manufacturing Files\Fabrication Output\NC Drill\Gripper PCB-SlotHoles-Plated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument5]
 DocumentPath=Manufacturing Files\Fabrication Output\NC Drill\Gripper PCB.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument6]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument7]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.G1
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument8]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.G2
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument9]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument10]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument11]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument12]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument13]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GM
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument14]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GM4
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument15]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GM6
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument16]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument17]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument18]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument19]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument20]
 DocumentPath=Manufacturing Files\Fabrication Output\NC Drill\Gripper PCB.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument21]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.REP
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument22]
 DocumentPath=Manufacturing Files\Fabrication Output\Gerber\Gripper PCB.RUL
 DItemRevisionGUID=
 
