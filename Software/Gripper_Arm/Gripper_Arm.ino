@@ -3,6 +3,8 @@ Pin Declarations
 ******************************************************/
 
 const int CURRENT_SENSE = 36;  // Analog input pin for the current sensor
+const int FSR_1= 24; // Force Sensor 1 Pin
+const int FSR_2= 26; // Force Sensor 2 Pin
 
 const int RED_LED = 21;    // RED LED Pin
 const int GREEN_LED = 22;  // GREEN LED Pin
@@ -62,7 +64,11 @@ void setup()
 
 void loop() 
 {
-
+//testing force sensors:
+serialprint("Force Sensor 1 ADC: ");
+serialprint(readForce(1));
+serialprint("Force Sensor 2 ADC: ");
+serialprint(readForce(2));
 }
 
 // This function converts the analog reading from the current sensor to a current
@@ -99,11 +105,17 @@ float readCurrent()
 float analogToForce(int sensorValue, int sensorNumber)
 {
 
+
 }
 
 // This function reads the force reading from the force sensor and prints them to Serial
 float readForce(int sensorNumber)
 {
+if(sensorNumber == 1){
+  int sensorValue = analogRead(FSR_1);
+} else {
+  int sensorValue = analogRead(FSR_2);
+}
 
 }
 
