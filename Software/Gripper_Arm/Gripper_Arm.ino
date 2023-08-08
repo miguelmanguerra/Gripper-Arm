@@ -3,10 +3,8 @@ Pin Declarations
 ******************************************************/
 
 const int CURRENT_SENSE = 36;  // Analog input pin for the current sensor
-const int FSR_1= 24; // Force Sensor 1 Pin
-int FSR_1_Val = 0;// Force Sensor 1 Value
-const int FSR_2= 26; // Force Sensor 2 Pin
-int FSR_2_Val = 0;// Force Sensor 2 Value
+const int FSR_1= 2; // Force Sensor 1 Pin
+const int FSR_2= 4; // Force Sensor 2 Pin
 
 const int RED_LED = 21;    // RED LED Pin
 const int GREEN_LED = 22;  // GREEN LED Pin
@@ -21,7 +19,8 @@ const int numSamples = 10;                 // Number of samples to average
 const unsigned long sampleInterval = 100;  // Time interval between samples in milliseconds
 unsigned long lastSampleTime = 0;          // Last time a sample was taken
 float totalCurrent = 0.0;                  // Accumulated total current from samples
-
+int FSR_1_Val = 0;// Force Sensor 1 Value
+int FSR_2_Val = 0;// Force Sensor 2 Value
 
 /******************************************************
 Function declarations
@@ -55,6 +54,8 @@ void setup()
   // Motor Control
   pinMode(MTR_CTRL_1, OUTPUT);
   pinMode(MTR_CTRL_2, OUTPUT);
+
+  // ADC Pins
 
   // Interrupt Control for POWER ON LED
   GREEN_LED_TIMER = timerBegin(0, 80, true);  // Timer 0, prescaler of 80 (1 tick = 1 microsecond)
