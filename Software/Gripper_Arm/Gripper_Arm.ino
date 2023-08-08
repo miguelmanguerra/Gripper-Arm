@@ -4,7 +4,9 @@ Pin Declarations
 
 const int CURRENT_SENSE = 36;  // Analog input pin for the current sensor
 const int FSR_1= 24; // Force Sensor 1 Pin
+int FSR_1_Val = 0;// Force Sensor 1 Value
 const int FSR_2= 26; // Force Sensor 2 Pin
+int FSR_2_Val = 0;// Force Sensor 2 Value
 
 const int RED_LED = 21;    // RED LED Pin
 const int GREEN_LED = 22;  // GREEN LED Pin
@@ -44,7 +46,7 @@ void IRAM_ATTR timerInterrupt()
 
 void setup() 
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   // LED Indicators
   pinMode(BLUE_LED, OUTPUT);
   pinMode(GREEN_LED, OUTPUT);
@@ -65,10 +67,14 @@ void setup()
 void loop() 
 {
 //testing force sensors:
-serialprint("Force Sensor 1 ADC: ");
-serialprint(readForce(1));
-serialprint("Force Sensor 2 ADC: ");
-serialprint(readForce(2));
+  Serial.print("Force Sensor 1 ADC: ");
+  FSR_1_Val = analogRead(FSR_1);
+  Serial.println(FSR_1_Val);
+  Serial.print("Force Sensor 2 ADC: ");
+  FSR_2_Val = analogRead(FSR_2);
+  Serial.println(FSR_2_Val);
+
+  delay(500);
 }
 
 // This function converts the analog reading from the current sensor to a current
@@ -111,13 +117,13 @@ float analogToForce(int sensorValue, int sensorNumber)
 // This function reads the force reading from the force sensor and prints them to Serial
 float readForce(int sensorNumber)
 {
-if(sensorNumber == 1){
-  int sensorValue = analogRead(FSR_1);
-} else {
-  int sensorValue = analogRead(FSR_2);
+//if(sensorNumber == 1){
+  //int sensorValue = analogRead(FSR_1);
+//} else {
+  //int sensorValue = analogRead(FSR_2);
 }
 
-}
+
 
 // these functions may be inverted depending on testing with the linear actuator
 void motorForward()
