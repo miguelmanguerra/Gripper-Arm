@@ -46,8 +46,8 @@ float analogToCurrent(int sensorValue);
 float readCurrent();
 float analogToForce(int sensorValue);
 float readForce(int sensorNumber);
-void motorForward();
-void motorBackward();
+void motorForward(float dutyCycle, int period);
+void motorBackward(float dutyCycle, int period);
 
 /******************************************************
 Interrupts
@@ -105,26 +105,33 @@ void setup()
   mcp2515.reset();
   mcp2515.setBitrate(CAN_125KBPS);
   mcp2515.setNormalMode();
+  adcAttachPin(CURRENT_SENSE);
+  analogSetClockDiv(255); // 1338mS
+  
 }
 
 
 void loop() 
 {
 //testing force sensors:
-  Serial.print("Force Sensor 1 ADC: ");
-  FSR_1_Val = analogRead(FSR_1);
-  Serial.println(FSR_1_Val);
-  Serial.print("Force Sensor 2 ADC: ");
-  FSR_2_Val = analogRead(FSR_2);
-  Serial.println(FSR_2_Val);
+  // Serial.print("Force Sensor 1 ADC: ");
+  // FSR_1_Val = analogRead(FSR_1);
+  // Serial.println(FSR_1_Val);
+  // Serial.print("Force Sensor 2 ADC: ");
+  // FSR_2_Val = analogRead(FSR_2);
+  // Serial.println(FSR_2_Val);
 
+  int sensorValue = analogRead(CURRENT_SENSE);
+  motorForward(35, 50);
+  Serial.print("ADC Value original: ");
+  Serial.println(sensorValue);
+  Serial.print("Voltage: ");
+  Serial.println(readVoltage(CURRENT_SENSE));
+  //mcp2515.sendMessage(&canMsg1);
+  //mcp2515.sendMessage(&canMsg2);
 
-  totalCurrent = readCurrent();
-  mcp2515.sendMessage(&canMsg1);
-  mcp2515.sendMessage(&canMsg2);
-
-  Serial.println("CAN Messages sent");
-  delay(1000);
+  //Serial.println("CAN Messages sent");
+  //delay(1000);
 }
 
 // This function converts the analog reading from the current sensor to a current
@@ -147,7 +154,7 @@ float readCurrent()
 
   // Print the result
   Serial.print("ADC Value: ");
-  Serial.print(sensorValue);
+  Serial.println(sensorValue);
   // Serial.print(", Current ");
   // Serial.print(current, 3); // Print with 3 decimal places
   // Serial.print(", Voltage: ");
@@ -176,14 +183,31 @@ float readForce(int sensorNumber)
 
 
 // these functions may be inverted depending on testing with the linear actuator
-void motorForward()
+void motorForward(float dutyCycle, int period)
 {
+  float turnOnTime = 0;
+  float turnOffTime = 0;
+  turnOnTime = (dutyCycle/100) * period;
+  turnOffTime = period - turnOnTime;
+  Serial.print("Turn On Time = ");
+  Serial.println(turnOnTime);
+  Serial.print("Turn Off Time = ");
+  Serial.println(turnOffTime);
+
+  // set driver to forward
   digitalWrite(MTR_CTRL_1, HIGH);
   digitalWrite(MTR_CTRL_2, LOW);
+
+  delay(turnOnTime);
+  // brake
+  digitalWrite(MTR_CTRL_1, HIGH);
+  digitalWrite(MTR_CTRL_2, HIGH);
+
+  delay(turnOffTime);
 }
 
 // these functions may be inverted depending on testing with the linear actuator
-void motorBackward()
+void motorBackward(float dutyCycle, int period)
 {
   digitalWrite(MTR_CTRL_1, LOW);
   digitalWrite(MTR_CTRL_2, HIGH);
