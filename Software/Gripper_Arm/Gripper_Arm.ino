@@ -26,9 +26,9 @@ const int SPI_CS_PIN = 15; // SPI Chip Select (CS) pin for MCP2515
 hw_timer_t *GREEN_LED_TIMER = NULL;  // Hardware Timer declaration
 
 const int numSamples = 10;                 // Number of samples to average
-const unsigned long sampleInterval = 100;  // Time interval between samples in milliseconds
-unsigned long lastSampleTime = 0;          // Last time a sample was taken
+bool adcStatus = false;
 float totalCurrent = 0.0;                  // Accumulated total current from samples
+float totalSamples = 0.0;
 
 int FSR_1_Val = 0;// Force Sensor 1 Value
 int FSR_2_Val = 0;// Force Sensor 2 Value
@@ -120,13 +120,21 @@ void loop()
   // Serial.print("Force Sensor 2 ADC: ");
   // FSR_2_Val = analogRead(FSR_2);
   // Serial.println(FSR_2_Val);
-
-  int sensorValue = analogRead(CURRENT_SENSE);
-  motorForward(35, 50);
-  Serial.print("ADC Value original: ");
+    totalSamples = 0;
+  
+  for(int i = 0; i < numSamples; i++)
+  {
+    totalSamples += analogRead(CURRENT_SENSE);
+    delay(2);
+  }
+  float sensorValue = totalSamples/numSamples;
+  motorForward(100, 25);
+  Serial.print("ADC Value averaged: ");
   Serial.println(sensorValue);
-  Serial.print("Voltage: ");
-  Serial.println(readVoltage(CURRENT_SENSE));
+  // note that the current that can be read is between 0.097A and 0.988A
+  float current = (sensorValue + 450.64)/4600.8;
+  Serial.print("Current (A): ");
+  Serial.println(current, 3);
   //mcp2515.sendMessage(&canMsg1);
   //mcp2515.sendMessage(&canMsg2);
 
@@ -189,10 +197,10 @@ void motorForward(float dutyCycle, int period)
   float turnOffTime = 0;
   turnOnTime = (dutyCycle/100) * period;
   turnOffTime = period - turnOnTime;
-  Serial.print("Turn On Time = ");
-  Serial.println(turnOnTime);
-  Serial.print("Turn Off Time = ");
-  Serial.println(turnOffTime);
+  // Serial.print("Turn On Time = ");
+  // Serial.println(turnOnTime);
+  // Serial.print("Turn Off Time = ");
+  // Serial.println(turnOffTime);
 
   // set driver to forward
   digitalWrite(MTR_CTRL_1, HIGH);
