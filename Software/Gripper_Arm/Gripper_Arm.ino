@@ -1,10 +1,10 @@
-#include <mcp2515.h>
-#include <SPI.h>
+//#include <mcp2515.h>
+//#include <SPI.h>
 
-#define HSPI_MISO 12
-#define HSPI_MOSI 13
-#define HSPI_SCLK 14
-#define HSPI_SS 15
+//#define HSPI_MISO 12
+//#define HSPI_MOSI 13
+//#define HSPI_SCLK 14
+//#define HSPI_SS 15
 
 /******************************************************
 Pin Declarations
@@ -31,9 +31,9 @@ float totalSamples = 0.0;   // Accumulated total ADC samples
 int FSR_1_Val = 0;  // Force Sensor 1 Value
 int FSR_2_Val = 0;  // Force Sensor 2 Value
 
-struct can_frame canMsg1;
-struct can_frame canMsg2;
-MCP2515 mcp2515(SPI_CS_PIN);
+//struct can_frame canMsg1;
+//struct can_frame canMsg2;
+//MCP2515 mcp2515(SPI_CS_PIN);
 
 
 /******************************************************
@@ -80,31 +80,31 @@ void setup() {
   timerAlarmEnable(GREEN_LED_TIMER);                             // Enable the timer
 
   // CAN Stuff
-  canMsg1.can_id = 0x0F6;
-  canMsg1.can_dlc = 8;
-  canMsg1.data[0] = 0x8E;
-  canMsg1.data[1] = 0x87;
-  canMsg1.data[2] = 0x32;
-  canMsg1.data[3] = 0xFA;
-  canMsg1.data[4] = 0x26;
-  canMsg1.data[5] = 0x8E;
-  canMsg1.data[6] = 0xBE;
-  canMsg1.data[7] = 0x86;
+  //canMsg1.can_id = 0x0F6;
+  //canMsg1.can_dlc = 8;
+  //canMsg1.data[0] = 0x8E;
+  //canMsg1.data[1] = 0x87;
+  //canMsg1.data[2] = 0x32;
+  //canMsg1.data[3] = 0xFA;
+  //canMsg1.data[4] = 0x26;
+  //canMsg1.data[5] = 0x8E;
+  //canMsg1.data[6] = 0xBE;
+  //canMsg1.data[7] = 0x86;
 
-  canMsg2.can_id = 0x036;
-  canMsg2.can_dlc = 8;
-  canMsg2.data[0] = 0x0E;
-  canMsg2.data[1] = 0x00;
-  canMsg2.data[2] = 0x00;
-  canMsg2.data[3] = 0x08;
-  canMsg2.data[4] = 0x01;
-  canMsg2.data[5] = 0x00;
-  canMsg2.data[6] = 0x00;
-  canMsg2.data[7] = 0xA0;
+  //canMsg2.can_id = 0x036;
+  //canMsg2.can_dlc = 8;
+  //canMsg2.data[0] = 0x0E;
+  //canMsg2.data[1] = 0x00;
+  //canMsg2.data[2] = 0x00;
+  //canMsg2.data[3] = 0x08;
+  //canMsg2.data[4] = 0x01;
+  //canMsg2.data[5] = 0x00;
+  //canMsg2.data[6] = 0x00;
+  //canMsg2.data[7] = 0xA0;
 
-  mcp2515.reset();
-  mcp2515.setBitrate(CAN_125KBPS);
-  mcp2515.setNormalMode();
+ // mcp2515.reset();
+  //mcp2515.setBitrate(CAN_125KBPS);
+  //mcp2515.setNormalMode();
 }
 
 
